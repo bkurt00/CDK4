@@ -1,0 +1,76 @@
+[INFO] Console - predicting pockets for proteins from dataset [structure.cif]
+[INFO] PredictPocketsRoutine - outdir: db2/v4-conservation-hmm/P8/6P8H/working/p2rank-output
+[INFO] Model - Loading model from directory (v3 format): /opt/p2rank/models/conservation_hmm
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, conservation, atom_table]
+[INFO] Dataset - processing dataset [structure.cif] using 1 thread
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [structure.cif] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [structure.cif] (1/1)
+[INFO] Protein - loading protein [/opt/administration/db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structure.cif]
+[INFO] PdbUtils - loading file [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structure.cif]
+[INFO] Struct - all groups in chain A: 244
+[INFO] Struct - all groups in chain B: 258
+[INFO] Struct - all groups in chain C: 54
+[INFO] Struct - all groups in chain A: 244
+[INFO] Struct - 244 groups in chain A
+[INFO] Struct - all groups in chain B: 258
+[INFO] Struct - 258 groups in chain B
+[INFO] Struct - all groups in chain C: 54
+[INFO] Struct - 54 groups in chain C
+[INFO] Protein - structure atoms: 4388
+[INFO] Protein - protein   atoms: 4298
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, conservation, atom_table]
+[INFO] Protein - SAS points: 8039
+[INFO] Protein - exposed protein atoms: 2763 of 4298
+[INFO] Protein - Loading conservation scores for [structure.cif]
+[INFO] ConservationLoader - Conservation lookup dirs: [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input]
+[INFO] ConservationLoader - Looking for conservation in dirs [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input]
+[INFO] ConservationLoader - Conservation file for [baseName:structure chain:A] found: [/opt/administration/db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structureA.hom]
+[INFO] ConservationScore - Loading conservation scores from file [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structureA.hom]
+[INFO] ConservationScore - Matching pdb chain A (n=244) with score chain (n=244)
+[INFO] ConservationScore - chain A in structure: DANLLNDRVLRAMLKAEETCAPSVSYFKCVQKEVLPSMRKIVATWMLEVCEEQKCEEEVFPLAMNYLDRFLSLEPVKKSRLQLLGATCMFVASKMKETIPLTAEKLCIYTDNSIRPEELLQMELLLVNKLKWNLAAMTPHDFIEHFLSKMPEAEENKQIIRKHAQTFVALCATDVKFISNPPSMVAAGSVVAAVQGLNLRSPNNFLSYYRLTRFLSRVIKCDPDCLRACQEQIEALLESSLRQA
+[INFO] ConservationScore - chain A in scoreFile: DANLLNDRVLRAMLKAEETCAPSVSYFKCVQKEVLPSMRKIVATWMLEVCEEQKCEEEVFPLAMNYLDRFLSLEPVKKSRLQLLGATCMFVASKMKETIPLTAEKLCIYTDNSIRPEELLQMELLLVNKLKWNLAAMTPHDFIEHFLSKMPEAEENKQIIRKHAQTFVALCATDVKFISNPPSMVAAGSVVAAVQGLNLRSPNNFLSYYRLTRFLSRVIKCDPDCLRACQEQIEALLESSLRQA
+[INFO] ConservationScore - masked chain A in structure: DANLLNDRVLRAMLKAEETCAPSVSYFKCVQKEVLPSMRKIVATWMLEVCEEQKCEEEVFPLAMNYLDRFLSLEPVKKSRLQLLGATCMFVASKMKETIPLTAEKLCIYTDNSIRPEELLQMELLLVNKLKWNLAAMTPHDFIEHFLSKMPEAEENKQIIRKHAQTFVALCATDVKFISNPPSMVAAGSVVAAVQGLNLRSPNNFLSYYRLTRFLSRVIKCDPDCLRACQEQIEALLESSLRQA
+[INFO] ConservationScore - masked chain A in scoreFile: DANLLNDRVLRAMLKAEETCAPSVSYFKCVQKEVLPSMRKIVATWMLEVCEEQKCEEEVFPLAMNYLDRFLSLEPVKKSRLQLLGATCMFVASKMKETIPLTAEKLCIYTDNSIRPEELLQMELLLVNKLKWNLAAMTPHDFIEHFLSKMPEAEENKQIIRKHAQTFVALCATDVKFISNPPSMVAAGSVVAAVQGLNLRSPNNFLSYYRLTRFLSRVIKCDPDCLRACQEQIEALLESSLRQA
+[INFO] ConservationScore - Exact score sequence match
+[INFO] ConservationLoader - Conservation lookup dirs: [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input]
+[INFO] ConservationLoader - Looking for conservation in dirs [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input]
+[INFO] ConservationLoader - Conservation file for [baseName:structure chain:B] found: [/opt/administration/db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structureB.hom]
+[INFO] ConservationScore - Loading conservation scores from file [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structureB.hom]
+[INFO] ConservationScore - Matching pdb chain B (n=258) with score chain (n=258)
+[INFO] ConservationScore - chain B in structure: GTVYKARDPGHFVALKSVRVPNGEEGLPISTVREVALLRRLEAFEHPNVVRLMDVCATSREIKVTLVFEHVDQDLRTYLDKAPPPGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLTLWYRAPEVLLQSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLPPEDDWPRDVSLPRGAFPPRGPRPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRALQHSYLHKD
+[INFO] ConservationScore - chain B in scoreFile: GTVYKARDPGHFVALKSVRVPNGEEGLPISTVREVALLRRLEAFEHPNVVRLMDVCATSREIKVTLVFEHVDQDLRTYLDKAPPPGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLTLWYRAPEVLLQSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLPPEDDWPRDVSLPRGAFPPRGPRPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRALQHSYLHKD
+[INFO] ConservationScore - masked chain B in structure: GTVYKARDPGHFVALKSVRVPNGEEGLPISTVREVALLRRLEAFEHPNVVRLMDVCATSREIKVTLVFEHVDQDLRTYLDKAPPPGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLTLWYRAPEVLLQSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLPPEDDWPRDVSLPRGAFPPRGPRPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRALQHSYLHKD
+[INFO] ConservationScore - masked chain B in scoreFile: GTVYKARDPGHFVALKSVRVPNGEEGLPISTVREVALLRRLEAFEHPNVVRLMDVCATSREIKVTLVFEHVDQDLRTYLDKAPPPGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLTLWYRAPEVLLQSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLPPEDDWPRDVSLPRGAFPPRGPRPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRALQHSYLHKD
+[INFO] ConservationScore - Exact score sequence match
+[INFO] ConservationLoader - Conservation lookup dirs: [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input]
+[INFO] ConservationLoader - Looking for conservation in dirs [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input]
+[INFO] ConservationLoader - Conservation file for [baseName:structure chain:C] found: [/opt/administration/db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structureC.hom]
+[INFO] ConservationScore - Loading conservation scores from file [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structureC.hom]
+[INFO] ConservationScore - Matching pdb chain C (n=54) with score chain (n=54)
+[INFO] ConservationScore - chain C in structure: GSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWER
+[INFO] ConservationScore - chain C in scoreFile: GSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWER
+[INFO] ConservationScore - masked chain C in structure: GSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWER
+[INFO] ConservationScore - masked chain C in scoreFile: GSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWER
+[INFO] ConservationScore - Exact score sequence match
+[INFO] SLinkClusterer - clustering [53] elements
+[INFO] SLinkClusterer - clusters: [id:18( 2 ), id:19( 2 ), id:20( 2 ), id:36( 12 ), id:47( 21 ), id:50( 1 ), id:51( 5 ), id:52( 8 )]
+[INFO] SLinkClusterer - clusters together: 53 / 53
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8039
+[INFO] PocketPredictor - LIGANDABLE POINTS: 53
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  31   points:  21   score:    6.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  25   points:  12   score:    4.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  19   points:   8   score:    2.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:   8   points:   5   score:    0.9
+[INFO] PredictionVisualizer - copying [/opt/administration/db2/v4-conservation-hmm/P8/6P8H/working/p2rank-input/structure.cif] to [db2/v4-conservation-hmm/P8/6P8H/working/p2rank-output/visualizations/data/structure.cif]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 3.379 seconds
+[INFO] Console - results saved to directory [/opt/administration/db2/v4-conservation-hmm/P8/6P8H/working/p2rank-output]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 4.443 seconds.

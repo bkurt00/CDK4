@@ -1,0 +1,35 @@
+open data/structure.cif
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #7d47b3
+color name color_pocket3 #e65cae
+color name color_pocket4 #b36847
+
+name pocket1_atoms @@serial_number=2957 @@serial_number=2961 @@serial_number=2964 @@serial_number=2956 @@serial_number=2962 @@serial_number=2963 @@serial_number=2986 @@serial_number=2047 @@serial_number=2048 @@serial_number=2202 @@serial_number=2324 @@serial_number=2447 @@serial_number=2449 @@serial_number=2451 @@serial_number=2446 @@serial_number=2448 @@serial_number=2205 @@serial_number=2967 @@serial_number=2890 @@serial_number=2031 @@serial_number=2445 @@serial_number=2455 @@serial_number=2468 @@serial_number=2973 @@serial_number=2974 @@serial_number=2955 @@serial_number=2308 @@serial_number=2305 @@serial_number=2470 @@serial_number=2862 @@serial_number=2891
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=2256 @@serial_number=2257 @@serial_number=2258 @@serial_number=2259 @@serial_number=2260 @@serial_number=2783 @@serial_number=2254 @@serial_number=2255 @@serial_number=92 @@serial_number=120 @@serial_number=2253 @@serial_number=95 @@serial_number=62 @@serial_number=57 @@serial_number=2749 @@serial_number=2751 @@serial_number=2744 @@serial_number=2277 @@serial_number=2279 @@serial_number=2716 @@serial_number=2717 @@serial_number=2776 @@serial_number=2738 @@serial_number=2742 @@serial_number=2775
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=613 @@serial_number=999 @@serial_number=4118 @@serial_number=4114 @@serial_number=4143 @@serial_number=643 @@serial_number=4090 @@serial_number=4123 @@serial_number=4144 @@serial_number=602 @@serial_number=973 @@serial_number=565 @@serial_number=567 @@serial_number=671 @@serial_number=974 @@serial_number=641 @@serial_number=607 @@serial_number=611 @@serial_number=612
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=2882 @@serial_number=2509 @@serial_number=2510 @@serial_number=3236 @@serial_number=2933 @@serial_number=2660 @@serial_number=2697 @@serial_number=2698
+color pocket4_atoms color_pocket4
+
+
+
+open data/structure.cif_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view
